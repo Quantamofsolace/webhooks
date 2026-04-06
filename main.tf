@@ -13,7 +13,7 @@ resource "aws_instance" "hello" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "hello-Instance-2"
+    Name = "Hello-Instance-2"
   }
 
 }
